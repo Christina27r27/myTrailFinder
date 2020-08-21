@@ -2,9 +2,13 @@
   "name": "trail-finder",
   "version": "1.0.0",
   "description": "findind trails according to location",
-  "main": "index.js",
+  "main": "index.html",
   "dependencies": {
-    "bootstrap": "^4.5.2"
+    "animate.css": "^4.1.0",
+    "bootstrap": "^4.5.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1"
   },
   "devDependencies": {},
   "scripts": {

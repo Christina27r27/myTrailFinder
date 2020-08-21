@@ -1,0 +1,30 @@
+ .navbar{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold; 
+}
+
+.nav-link {
+    color:rgb(95, 90, 90);
+}
+
+.hero__background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: #232a23;
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    overflow:hidden;
+}
+
+.mainTitle {
+    color:rgb(95, 90, 90);
+    font-weight: bold;
+}
+
+.animate__animated.animate__fadeInUp {
+    --animate-duration: 5s;
+  }

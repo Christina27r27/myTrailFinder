@@ -3,6 +3,48 @@
     <head>
         <meta charset = "utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+      />
+        <link rel="stylesheet"  type="text/css" href="style.css">
         <title>My Trail Finder</title>
     </head>
+<body>
+    <nav class="navbar navbar-expand-sm sticky-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#trail">MENU
+                <span class="navbar-toggler-icon"></span>
+            </button>   
+            <div class="collapse navbar-collapse" id="trail">
+                <ul class="navbar-nav list-unstyled ml-auto">
+                    <li class="nav-item active"><a class="nav-link" href="index.html">Biking Trails</a></li>
+                    <li class="nav-item" ><a class="nav-link " href="hikingTrails.html">Hiking Trails</a></li>
+                    <li class="nav-item"><a class = "nav-link" href = "contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+      </nav>
+      <header class ="hero">
+          <div class= "hero__background">
+              <video autoplay loop muted poster>
+                  <source src = "assets/video.mp4">
+              </video>
+          </div>
+      </header>
+      <div class="container">
+          <div class="row">
+              <div class="col text-center mt-5 pt-5 mainTitle">
+                  <h1 class="animate__animated animate__fadeInUp">Ready For The Next Adventure?</h1>
+              </div>
+          </div>
+      </div>
+      
+      <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+      <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      
+</body>
 </html>
