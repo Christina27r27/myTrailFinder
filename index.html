@@ -5,10 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
         <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-        <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
-      />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
         <link rel="stylesheet"  type="text/css" href="style.css">
         <title>My Trail Finder</title>
     </head>
@@ -27,20 +25,34 @@
             </div>
         </div>
       </nav>
-      <header class ="hero">
-          <div class= "hero__background">
-              <video autoplay loop muted poster>
-                  <source src = "assets/video.mp4">
-              </video>
-          </div>
-      </header>
-      <div class="container">
-          <div class="row">
-              <div class="col text-center mt-5 pt-5 mainTitle">
-                  <h1 class="animate__animated animate__fadeInUp">Ready For The Next Adventure?</h1>
-              </div>
-          </div>
-      </div>
+      <div class="hero-wrapper">
+        <figure>
+          <video loop muted="muted" autoplay>
+            <source src="assets/video.mp4"/>
+          </video>
+        </figure>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center mt-5 pt-5 mainTitle">
+                <h1 class="animate__animated animate__fadeInUp">Ready For The Next Adventure?</h1>
+            </div>
+        </div>
+    </div>
+    <div class="col mt-5 pt-5">
+        <a role="button" class="btn btn-two animate__animated animate__lightSpeedInRight" href="#heading">Lets Go!</a>
+    </div>
+    <div class="stretch" id="heading">
+        <div class="codecontainer">
+            <h1>Some heading</h1>
+            <p>Content Goes Here..</p>
+        </div>
+    </div>
+    
+
+
+      
+     
       
       <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
       <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
